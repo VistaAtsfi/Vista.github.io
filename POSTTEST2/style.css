@@ -1,0 +1,111 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling Header dan Navbar */
+.header {
+    background-color: #ac8c62; 
+    color: #4f432e;
+    padding: 10px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+#burgerbar {
+    display: block;
+    width: 36px;
+    background-color: #4f432e;
+    border: none;
+    cursor: pointer;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #4f432e; 
+}
+
+/* Styling Main Content */
+main {
+    background-color: #e3caa9;
+    padding: 20px 0;
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.instrument-table {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+/* Styling individual instrument box */
+.instrument {
+    background-color: #f4e7cb;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(74, 74, 74, 0.537);
+}
+
+.instrument img {
+    width: 8cm;
+    height: 7cm;
+}
+
+/* Styling deskripsi instrument */
+.instrument-description {
+    margin-top: 10px;
+}
+
+/* Styling Footer */
+footer {
+    background-color: #ac8c62;
+    color: #4f432e;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Foto */
+.foto-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.foto {
+    border: 5px solid #4f432e;
+    border-radius: 5px;
+    object-fit: cover;
+    object-position: center;
+}
+.foto-bulat {
+    width: 2cm;
+    height: 2cm;
+    border-radius: 50%;
+}
